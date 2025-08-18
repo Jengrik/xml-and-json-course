@@ -1,0 +1,25 @@
+Bitácora del Laboratorio - Sesión 1: Introducción a XML y JSON
+
+Nombre del estudiante: ___________________
+Fecha: _______________
+
+1. Observaciones en exploración inicial:
+   - Elemento raíz y elementos hijos en XML:
+   - Atributos encontrados:
+   - Objetos y arreglos en JSON:
+
+2. Validación de esquemas:
+   - Comando usado para validar XML y resultado:
+   - Comando usado para validar JSON y resultado:
+
+3. Consultas realizadas:
+   - XPath:
+   - JSONPath/jq:
+
+4. Errores detectados y correcciones aplicadas:
+
+5. Mini reto:
+   - Propuesta de validación del precio total >= 20
+   - Diferencias entre hacerlo en XML/XSD y JSON Schema
+
+6. Conclusiones del equipo:

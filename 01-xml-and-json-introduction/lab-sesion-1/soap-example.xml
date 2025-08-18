@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header/>
+  <soap:Body>
+    <ns:GetOrderStatusResponse xmlns:ns="https://example.com/orders">
+      <ns:orderId>PO-1001</ns:orderId>
+      <ns:status>Shipped</ns:status>
+    </ns:GetOrderStatusResponse>
+  </soap:Body>
+</soap:Envelope>

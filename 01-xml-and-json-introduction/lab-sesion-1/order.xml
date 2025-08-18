@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<po:PurchaseOrder xmlns:po="https://example.com/po"
+                  orderDate="2025-08-12"
+                  id="PO-1001">
+  <po:Buyer>
+    <po:name>ACME S.A.</po:name>
+    <po:taxId>900123456</po:taxId>
+  </po:Buyer>
+  <po:Items>
+    <po:Item sku="SKU-001" qty="2" unitPrice="19.99"/>
+    <po:Item sku="SKU-002" qty="1" unitPrice="49.50"/>
+  </po:Items>
+</po:PurchaseOrder>

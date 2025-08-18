@@ -1,0 +1,9 @@
+{
+  "eventId": "EV-2025-0001",
+  "eventType": "order.shipped",
+  "timestamp": "2025-08-12T10:30:00Z",
+  "data": {
+    "orderId": "PO-1001",
+    "status": "Shipped"
+  }
+}

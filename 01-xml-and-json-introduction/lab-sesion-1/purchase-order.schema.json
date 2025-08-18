@@ -1,0 +1,33 @@
+{
+  "$id": "https://example.com/purchase-order.schema.json",
+  "type": "object",
+  "required": ["orderId", "orderDate", "buyer", "items"],
+  "properties": {
+    "orderId": { "type": "string" },
+    "orderDate": { "type": "string", "format": "date" },
+    "buyer": {
+      "type": "object",
+      "required": ["name", "taxId"],
+      "properties": {
+        "name": { "type": "string" },
+        "taxId": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["sku", "qty", "unitPrice"],
+        "properties": {
+          "sku": { "type": "string" },
+          "qty": { "type": "integer", "minimum": 1 },
+          "unitPrice": { "type": "number", "exclusiveMinimum": 0 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

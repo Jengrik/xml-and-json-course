@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<purchaseOrder xmlns="urn:po"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="urn:po purchase-order.xsd">
+  <orderNumber>PO-2025-0001</orderNumber>
+  <amount>123.45</amount>
+</purchaseOrder>

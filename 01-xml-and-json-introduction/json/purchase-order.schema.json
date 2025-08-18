@@ -1,0 +1,10 @@
+{
+  "title": "PurchaseOrder",
+  "type": "object",
+  "required": ["orderNumber", "amount"],
+  "properties": {
+    "orderNumber": { "type": "string" },
+    "amount": { "type": "number", "minimum": 0 }
+  },
+  "additionalProperties": false
+}

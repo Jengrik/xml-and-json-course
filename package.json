@@ -1,0 +1,17 @@
+{
+  "name": "xml-and-json-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jhon Navarrete",
+  "license": "ISC",
+  "description": "Este curso está diseñado para fortalecer las competencias técnicas en el uso de los formatos **XML** y **JSON**, dos estándares ampliamente adoptados para el intercambio de información entre sistemas heterogéneos.",
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-cli": "^5.0.0",
+    "ajv-formats": "^3.0.1"
+  }
+}
