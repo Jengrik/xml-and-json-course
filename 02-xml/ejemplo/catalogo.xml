@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="catalogo-schema.xsd">
+
+  <producto id="P001" categoria="perifericos">
+    <nombre>Smartphone</nombre>
+    <precio>299.99</precio>
+    <stock>150</stock>
+  </producto>
+
+  <producto id="P002" categoria="informatica">
+    <nombre>Portátil</nombre>
+    <precio>899.99</precio>
+    <stock>75</stock>
+  </producto>
+  
+</catalogo>
