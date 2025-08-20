@@ -6,13 +6,13 @@
     "id": "C-1001",
     "name": "Inversiones ABC S.A.S.",
     "email": "facturacion@abc.com",
-    "taxId": "J1234-9"
+    "taxId": "J1234567890123456789"
   },
   "items": [
     {
       "productId": "P001",
       "description": "Laptop 14\"",
-      "quantity": 1,
+      "quantity": 2,
       "unitPrice": 2599.99
     },
     {
