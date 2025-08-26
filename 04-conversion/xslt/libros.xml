@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="plantilla.xsl"?>
+<biblioteca>
+  <nombre>Biblioteca Central</nombre>
+  <ubicacion>Madrid</ubicacion>
+
+  <libros>
+    <libro id="bk-001">
+      <titulo>Clean Code</titulo>
+      <autor>Robert C. Martin</autor>
+      <anio>2008</anio>
+      <categorias>
+        <categoria>Software</categoria>
+        <categoria>Buenas prácticas</categoria>
+      </categorias>
+      <precio moneda="EUR">39.90</precio>
+    </libro>
+
+    <libro id="bk-002">
+      <titulo>The Pragmatic Programmer</titulo>
+      <autor>Andrew Hunt</autor>
+      <anio>1999</anio>
+      <categorias>
+        <categoria>Ingeniería</categoria>
+      </categorias>
+      <precio moneda="EUR">42.00</precio>
+    </libro>
+
+    <libro id="bk-003">
+      <titulo>Design Patterns</titulo>
+      <autor>Erich Gamma et al.</autor>
+      <anio>1994</anio>
+      <categorias>
+        <categoria>Arquitectura</categoria>
+        <categoria>OO</categoria>
+      </categorias>
+      <precio moneda="EUR">55.00</precio>
+    </libro>
+  </libros>
+</biblioteca>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+  <producto id="P001">
+    <nombre>Laptop</nombre>
+    <precio>1200</precio>
+  </producto>
+  <producto id="P002">
+    <nombre>Mouse</nombre>
+    <precio>25</precio>
+  </producto>
+</catalogo>

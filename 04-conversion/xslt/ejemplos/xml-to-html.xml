@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+  <producto id="P001">
+    <nombre>Laptop Pro 14</nombre>
+    <precio moneda="USD">1599.99</precio>
+    <stock>12</stock>
+    <categoria>Tecnologia</categoria>
+  </producto>
+  <producto id="P002">
+    <nombre>Mouse Inalambrico</nombre>
+    <precio moneda="USD">24.90</precio>
+    <stock>0</stock>
+    <categoria>Accesorios</categoria>
+  </producto>
+  <producto id="P003">
+    <nombre>Monitor 27</nombre>
+    <precio moneda="USD">289.00</precio>
+    <stock>7</stock>
+    <categoria>Tecnologia</categoria>
+  </producto>
+</catalogo>
