@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="plantilla.xsl"?>
 <biblioteca>
-  <nombre>Biblioteca Central</nombre>
+  <nombre>Biblioteca DIAN</nombre>
   <ubicacion>Madrid</ubicacion>
 
   <libros>
@@ -35,6 +35,17 @@
         <categoria>OO</categoria>
       </categorias>
       <precio moneda="EUR">55.00</precio>
+    </libro>
+
+    <libro id="bk-004">
+      <titulo>XML and JSON patterns</titulo>
+      <autor>Jhon Navarrete</autor>
+      <anio>2025</anio>
+      <categorias>
+        <categoria>Ingeniería</categoria>
+        <categoria>Arquitectura</categoria>
+      </categorias>
+      <precio moneda="EUR">100.00</precio>
     </libro>
   </libros>
 </biblioteca>

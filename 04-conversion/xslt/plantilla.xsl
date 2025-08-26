@@ -77,7 +77,7 @@
             <tfoot>
               <tr>
                 <td colspan="5">
-                  <strong>Total:</strong>
+                  <strong>Total: </strong>
                   <xsl:value-of select="format-number(sum(biblioteca/libros/libro/precio), '0.00')"/>
                   <xsl:text> EUR</xsl:text>
                 </td>

@@ -3,7 +3,7 @@
   <producto id="P001">
     <nombre>Laptop Pro 14</nombre>
     <precio moneda="USD">1599.99</precio>
-    <stock>12</stock>
+    <stock>30</stock>
     <categoria>Tecnologia</categoria>
   </producto>
   <producto id="P002">
@@ -15,6 +15,12 @@
   <producto id="P003">
     <nombre>Monitor 27</nombre>
     <precio moneda="USD">289.00</precio>
+    <stock>7</stock>
+    <categoria>Tecnologia</categoria>
+  </producto>
+  <producto id="P004">
+    <nombre>Keyboard</nombre>
+    <precio moneda="USD">75.00</precio>
     <stock>7</stock>
     <categoria>Tecnologia</categoria>
   </producto>
