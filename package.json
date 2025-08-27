@@ -1,5 +1,6 @@
 {
   "name": "xml-and-json-course",
+  "type": "module",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,5 +14,8 @@
     "ajv": "^8.17.1",
     "ajv-cli": "^5.0.0",
     "ajv-formats": "^3.0.1"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
   }
 }

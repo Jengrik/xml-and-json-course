@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:cat="http://example.com/catalog">
+  <producto id="P001" categoria="Ropa">
+    <nombre>Camiseta Deportiva</nombre>
+    <precio moneda="USD">29.99</precio>
+    <stock>120</stock>
+    <descripcion><![CDATA[ Tejido <fresco> y cómodo ]]></descripcion>
+  </producto>
+  <producto id="P002" categoria="Electrónica">
+    <nombre>Audífonos Inalámbricos</nombre>
+    <precio moneda="USD">89.50</precio>
+    <stock>45</stock>
+  </producto>
+</catalogo>
