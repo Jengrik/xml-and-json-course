@@ -30,3 +30,8 @@ const normalized = productos.map(p => ({
 }));
 
 console.log(normalized);
+const precio = normalized[0].price;
+const nuevoPrecio = precio + 1;
+console.log(`El precio original era: ${precio}, el nuevo precio es: ${nuevoPrecio}`);
+const iva = precio * 0.19;
+console.log(`El IVA es: ${iva}`);

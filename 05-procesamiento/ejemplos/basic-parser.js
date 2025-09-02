@@ -19,4 +19,10 @@ const parser = new Parser({
 
 const jsObj = await parser.parseStringPromise(xml);
 console.dir(jsObj, { depth: null });
-console.log(jsObj?.catalogo?.producto[0])
+console.log("---");
+
+const precio = jsObj?.catalogo?.producto[0]?.precio[0]?._;
+const nuevoPrecio = 1 + precio;
+console.log(`El precio original era: ${precio}, el nuevo precio es: ${nuevoPrecio}`);
+const iva = precio * 0.19;
+console.log(`El IVA es: ${iva}`);
