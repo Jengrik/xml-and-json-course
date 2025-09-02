@@ -15,6 +15,7 @@
     <img *ngIf="imageOf(p) as img" [src]="img" [alt]="p.name" />
     <div class="body">
       <h2>{{ p.name | titlecase }}</h2>
+      <p>Height: {{ p.height }}</p>
       <div class="types">
         <span class="type" *ngFor="let t of typesOf(p)">{{ t }}</span>
       </div>

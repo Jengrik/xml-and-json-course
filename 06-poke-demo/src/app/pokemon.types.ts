@@ -13,6 +13,7 @@ export interface PokemonType {
 export interface PokemonDetail {
   id: number;
   name: string;
+  height: string;
   sprites: {
     front_default: string | null;
     other?: { 'official-artwork'?: { front_default: string | null } };
